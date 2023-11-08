@@ -1,0 +1,55 @@
+<nav id="sidebar">
+  <div class="sidebar-content">
+    <div class="titlediv">
+      <a routerLink="" class="sidebar-brand">
+        <span class="title">StudentMenu</span>
+      </a>
+    </div>
+
+    <div class="list">
+      <ul class="sidebar-nav">
+        <li class="sidebar-item">
+          <a
+            class="sidebar-link"
+            routerLink="/dashboard"
+            [routerLinkActive]="'link-active'"
+          >
+          <mat-icon>dashboard</mat-icon><span class="align-middle">Dashboard</span>
+          </a>
+        </li>
+
+        <li class="sidebar-item">
+          <a
+            routerLink="/addstudent"
+            class="sidebar-link"
+            [routerLinkActive]="'link-active'"
+          >
+          <mat-icon>library_add</mat-icon>
+            <span class="align-middle">Add Student</span>
+          </a>
+        </li>
+
+        <li class="sidebar-item">
+          <a
+            routerLink="/markattendence"
+            class="sidebar-link"
+            [routerLinkActive]="'link-active'"
+          >
+          <mat-icon>create</mat-icon>
+            <span class="align-middle">Mark Attendence</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a
+            routerLink = "chart"
+            class="sidebar-link"
+            [routerLinkActive]="'link-active'"
+          >
+          <mat-icon> insert_chart_outlined</mat-icon>
+            <span class="align-middle">Chart</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

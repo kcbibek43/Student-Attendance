@@ -1,0 +1,17 @@
+h1{
+    font-size:30px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.navbar{
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    // background-color: rgb(255,98,85);
+    background-color: rgb(234,58,60);
+    height: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 1vw;
+    border-radius: 10px;
+}

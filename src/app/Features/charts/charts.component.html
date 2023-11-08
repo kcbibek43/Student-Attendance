@@ -1,0 +1,22 @@
+<div *ngIf="isLoading">
+  <div class="wrapperind center">
+    <div class="inner">
+      <mat-progress-spinner
+        value-="50"
+        mode="indeterminate"
+      ></mat-progress-spinner>
+    </div>
+  </div>
+</div>
+<canvas
+  *ngIf = "!isLoading"
+  baseChart
+  class="chart"
+  [data]="barChartData"
+  [options]="barChartOptions"
+  [plugins]="barChartPlugins"
+  [type]="barChartType"
+  (chartHover)="chartHovered($event)"
+  (chartClick)="chartClicked($event)"
+>
+</canvas>

@@ -1,0 +1,49 @@
+.center {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .wrapperind {
+    height: calc(100vh - 20px);
+  }
+  .inner {
+    padding: 12px;
+  }
+
+  .filter{
+    width: 100%;
+  }
+
+  .title{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .content{
+    padding-bottom: 3vh;
+  }
+
+  .actionbtn{
+    margin-right: 1vw;
+    margin-bottom: 0.5vw;
+  }
+
+  h1{
+    color: #277BE9;
+  }
+
+.row{
+  margin-top: 1vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.filterdiv{
+  width: 60vw;
+  display: flex;
+  align-items: center;
+}

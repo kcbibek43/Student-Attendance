@@ -1,0 +1,20 @@
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.main{
+    margin-left: 22%;
+    width: 78%;
+    height: 100vh;
+}
+.sidebar{
+    width: 22%;
+    height: 100vh;
+    position: fixed;
+}
+
+.maincontent{
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
